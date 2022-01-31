@@ -1,0 +1,87 @@
+
+.nav-bar{
+    display: flex;
+}
+.link-container{
+    margin-left: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    color:black ;
+    font-weight: bold;
+    transition: 500ms;
+    
+}
+a:hover{
+font-size: 25px;
+}
+.animate{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    transition: 300ms;
+}
+.animate:hover{
+    width: 300px;
+    background-color: blue;
+}
+button{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 999px;
+    border: 1px solid black;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    transition: 800ms;
+}
+button:hover{
+        background-color: black;
+        color: white;
+}
+button:active{
+        background-color: greenyellow;
+}
+p{
+
+    text-transform: uppercase; 
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+
+
+    width: fit-content;
+    /* background-color: blue; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+
+    
+    /* margin: 100px 200px 100px 100px */
+
+    
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./yes.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+

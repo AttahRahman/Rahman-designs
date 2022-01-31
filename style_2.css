@@ -1,0 +1,30 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./r.JPG");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center;
+}
+button{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 999px;
+    border: 1px solid black;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    transition: 800ms;
+}
+button:hover{
+        background-color: black;
+        color: white;
+}
+button:active{
+        background-color: rgb(4, 162, 235);
+}
